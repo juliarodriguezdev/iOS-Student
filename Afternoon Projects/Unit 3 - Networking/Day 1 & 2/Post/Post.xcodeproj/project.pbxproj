@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A302DC6922C16B0300CD0C2B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DC6822C16B0300CD0C2B /* Post.swift */; };
 		B755BB7A219DE7EC00A9E085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755BB79219DE7EC00A9E085 /* AppDelegate.swift */; };
 		B755BB7C219DE7EC00A9E085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755BB7B219DE7EC00A9E085 /* ViewController.swift */; };
 		B755BB7F219DE7EC00A9E085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B755BB7D219DE7EC00A9E085 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A302DC6822C16B0300CD0C2B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B755BB76219DE7EC00A9E085 /* Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B755BB79219DE7EC00A9E085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B755BB7B219DE7EC00A9E085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A302DC6722C16AE100CD0C2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B755BB79219DE7EC00A9E085 /* AppDelegate.swift */,
+				B755BB7B219DE7EC00A9E085 /* ViewController.swift */,
+				B755BB7D219DE7EC00A9E085 /* Main.storyboard */,
+				B755BB80219DE7ED00A9E085 /* Assets.xcassets */,
+				B755BB82219DE7ED00A9E085 /* LaunchScreen.storyboard */,
+				B755BB85219DE7ED00A9E085 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B755BB6D219DE7EC00A9E085 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +69,8 @@
 		B755BB78219DE7EC00A9E085 /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				B755BB79219DE7EC00A9E085 /* AppDelegate.swift */,
-				B755BB7B219DE7EC00A9E085 /* ViewController.swift */,
-				B755BB7D219DE7EC00A9E085 /* Main.storyboard */,
-				B755BB80219DE7ED00A9E085 /* Assets.xcassets */,
-				B755BB82219DE7ED00A9E085 /* LaunchScreen.storyboard */,
-				B755BB85219DE7ED00A9E085 /* Info.plist */,
+				A302DC6722C16AE100CD0C2B /* Resources */,
+				A302DC6822C16B0300CD0C2B /* Post.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A302DC6922C16B0300CD0C2B /* Post.swift in Sources */,
 				B755BB7C219DE7EC00A9E085 /* ViewController.swift in Sources */,
 				B755BB7A219DE7EC00A9E085 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Post/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Post/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Post/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Post/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
