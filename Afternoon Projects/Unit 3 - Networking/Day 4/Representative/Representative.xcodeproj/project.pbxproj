@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3220D222C556E300F80D2D /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3220D122C556E300F80D2D /* Representative.swift */; };
+		6A3220D422C5599800F80D2D /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3220D322C5599800F80D2D /* RepresentativeController.swift */; };
 		B755BBB6219DE93E00A9E085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755BBB5219DE93E00A9E085 /* AppDelegate.swift */; };
 		B755BBB8219DE93E00A9E085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755BBB7219DE93E00A9E085 /* ViewController.swift */; };
 		B755BBBB219DE93E00A9E085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B755BBB9219DE93E00A9E085 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A3220D122C556E300F80D2D /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		6A3220D322C5599800F80D2D /* RepresentativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 		B755BBB2219DE93E00A9E085 /* Representative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Representative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B755BBB5219DE93E00A9E085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B755BBB7219DE93E00A9E085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				B755BBBC219DE94000A9E085 /* Assets.xcassets */,
 				B755BBBE219DE94000A9E085 /* LaunchScreen.storyboard */,
 				B755BBC1219DE94000A9E085 /* Info.plist */,
+				6A3220D122C556E300F80D2D /* Representative.swift */,
+				6A3220D322C5599800F80D2D /* RepresentativeController.swift */,
 			);
 			path = Representative;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3220D422C5599800F80D2D /* RepresentativeController.swift in Sources */,
+				6A3220D222C556E300F80D2D /* Representative.swift in Sources */,
 				B755BBC8219DE95C00A9E085 /* States.swift in Sources */,
 				B755BBB8219DE93E00A9E085 /* ViewController.swift in Sources */,
 				B755BBB6219DE93E00A9E085 /* AppDelegate.swift in Sources */,
